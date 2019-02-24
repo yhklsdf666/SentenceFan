@@ -120,7 +120,6 @@ abstract class BaseActivity : AppCompatActivity() {
         if (connected) {
             doReConnected()
         } else {
-            //TODO 写入string中
             toast("网络连接不可用，请检查网络设置！")
         }
     }

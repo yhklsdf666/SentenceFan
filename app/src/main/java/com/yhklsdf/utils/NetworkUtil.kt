@@ -18,7 +18,7 @@ class NetworkUtil {
             val manager = context.applicationContext.getSystemService(
                     Context.CONNECTIVITY_SERVICE) as ConnectivityManager
             val info = manager.activeNetworkInfo
-            return !(!info.isConnected|| info == null)
+            return !(null == info || !info.isConnected)
         }
 
         fun isWifi(context: Context): Boolean {
