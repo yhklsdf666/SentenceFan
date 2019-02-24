@@ -28,6 +28,7 @@ class MainActivity : BaseActivity() {
         }
 
         initDrawerLayout()
+
         bottom_navigation.run {
             //设置底部图标和字体都显示并去掉点击动画
             labelVisibilityMode = 1
