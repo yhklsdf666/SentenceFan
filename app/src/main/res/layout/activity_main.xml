@@ -42,5 +42,4 @@
         app:itemTextColor="@color/item_nav_color_tv"
         app:menu="@menu/nav_menu" />
 
-
 </android.support.v4.widget.DrawerLayout>

@@ -66,7 +66,8 @@ ext {
             "android-autosize"      : 'me.jessyan:autosize:1.1.2',
             "swipeback"             : 'com.cxz:swipeback:1.0.1',
             "agentweb"              : 'com.just.agentweb:agentweb:4.0.2',
-            "brvh"                  : 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+            "brvh"                  : 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46',
+            "circleimageview"       :'de.hdodenhof:circleimageview:3.0.0'
     ]
 
     otherDeps = [

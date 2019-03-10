@@ -1,16 +1,10 @@
 package com.yhklsdf.ui.activity
 
-import android.os.Bundle
 import android.support.v7.app.ActionBarDrawerToggle
-import android.support.v7.app.AppCompatActivity
-import cn.bmob.v3.exception.BmobException
-import cn.bmob.v3.listener.UpdateListener
 import com.yhklsdf.R
 import com.yhklsdf.base.BaseActivity
-import com.yhklsdf.mvp.model.bean.User
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.toolbar.*
-import org.jetbrains.anko.toast
 
 class MainActivity : BaseActivity() {
 
