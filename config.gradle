@@ -29,9 +29,11 @@ ext {
     ]
 
     retrofit = [
-            "retrofit"                : "com.squareup.retrofit2:retrofit:${dependVersion.retrofitSdkVersion}",
-            "retrofitConverterGson"   : "com.squareup.retrofit2:converter-gson:${dependVersion.retrofitSdkVersion}",
-            "retrofitAdapterRxjava2"  : "com.squareup.retrofit2:adapter-rxjava2:${dependVersion.retrofitSdkVersion}",
+            "retrofit"              : "com.squareup.retrofit2:retrofit:${dependVersion.retrofitSdkVersion}",
+            "retrofitConverterGson" : "com.squareup.retrofit2:converter-gson:${dependVersion.retrofitSdkVersion}",
+            "retrofitAdapterRxjava2": "com.squareup.retrofit2:adapter-rxjava2:${dependVersion.retrofitSdkVersion}",
+            "retrofitKotlinMoshi"     : "com.squareup.moshi:moshi-kotlin:1.7.0",
+            "retrofitConverterMoshi"  : 'com.squareup.retrofit2:converter-moshi:2.4.0'
     ]
 
     rxJava = [

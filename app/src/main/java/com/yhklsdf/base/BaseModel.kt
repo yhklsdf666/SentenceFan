@@ -17,9 +17,7 @@ class BaseModel : IModel,LifecycleObserver{
         if (compositeDisposable == null) {
             compositeDisposable = CompositeDisposable()
         }
-        //优于下面注释写法
         disposable?.let { compositeDisposable?.add(it) }
-//        compositeDisposable?.add(disposable!!)
     }
 
     override fun onDetach() {

@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import android.support.multidex.MultiDexApplication
 import org.litepal.LitePal
+import java.beans.PropertyChangeSupport
 import kotlin.properties.Delegates
 
 class App : MultiDexApplication() {
@@ -27,6 +28,8 @@ class App : MultiDexApplication() {
     }
 
     private fun initLitePal() {
+        val change = PropertyChangeSupport(this)
+
         LitePal.initialize(this)
     }
 
